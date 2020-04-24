@@ -7,6 +7,7 @@ A web scraper to post claims adjustment data.
 | Medicaid | DDD                   | 000200    | DDD Adult Training Center | 100013100 | F79       | 6/10/2019 | T2021:HI:US | $58.32     | 24    | 60.96      | 201919654532901 | 286    |             |
 | Medicaid | DDD                   | 000200    | DDD Adult Training Center | 100013100 | F79       | 6/10/2019 | A0090:HI:22 | $1.48      | 2     | 1.58       | 201919654533501 | 285    |             |
 
-NEW BACTCH must be an empty batch for each program billing group.  NEW Amount is calculated using VLOOKUP to the rate.xlsx file.
+NEW BACTCH and NEW Amount are manually figured out.  
+-NEW must be an empty batch for each program billing group.  NEW Amount is calculated using VLOOKUP to the rate.xlsx file.
 
 1. `pip install requirements.txt`
