@@ -11,6 +11,7 @@ NEW BACTCH and NEW Amount are manually figured out.
 - **NEW BATCH** must be an empty batch for each program billing group.  
 - **NEW Amount** is calculated using VLOOKUP of the procedure to the procedure in the rate.xlsx file.
 
-Then,
-`pip install requirements.txt`
-`python urlscrape.py`
+Then
+
+1.`pip install requirements.txt`
+2.`python urlscrape.py`
